@@ -6,3 +6,4 @@ Click on download code -> download zip -> unzip the download folder then move th
 Go to the folder, open main, open the file named "mainGUI.py" this will pop up a shell in python
 # Third
 Click run -> run module and youre done!
+Add code for necessary food items to be generated
