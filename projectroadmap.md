@@ -1,1 +1,8 @@
-TBD
+- Find source code
+- Upload source code to Visual Studio Code
+- Make neccesary edits to uploaded code
+- Test source code to confirm it runs 
+- Upload finished source code to Github repository
+- Make appropriate code changes on Github
+- Finalize code
+- Finish by May 8th
