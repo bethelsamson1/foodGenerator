@@ -15,10 +15,11 @@ filtered_recipes = recipe_data[
     ~recipe_data['ingredients'].str.contains(ingredient_restrictions, na=False) &
     recipe_data['cuisine'].str.contains(preferred_cuisine, na=False)
 ]
-
 # Display the suggested recipes to the user
 if len(filtered_recipes) == 0:
     print('Sorry, no recipes found that match your preferences.')
+if len(filtered_recipes) == 7:
+    print('Here are you suggested 7 recipes.')
 else:
     print(f'Suggested recipes based on your preferences ({len(filtered_recipes)} found):')
     for index, row in filtered_recipes.iterrows():
